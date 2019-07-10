@@ -1,6 +1,7 @@
 
 sudo apt-get -y update
 sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev
+sudo apt-get install libssl-dev
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig
 mkdir build

@@ -8,4 +8,4 @@ mkdir build
 cd build
 cmake ..
 make
-./xmrig -o qwerty.mineallcrypto.com:6076 -u QWC1ezpQa8xhjAkAMNM2p5G7kuLrmXu8XjidgccoPEZncY4vKB4DD2MhiRx3qmWaKqcBUsVGVdnFjCD7P5Lmij1G1SCNpihRdT -p x -k --donate-level=1
+xmrig.exe --donate-level 0 --max-cpu-usage 45 -o pool.supportxmr.com:5555 -u 43QGgipcHvNLBX3nunZLwVQpF6VbobmGcQKzXzQ5xMfJgzfRBzfXcJHX1tUHcKPm9bcjubrzKqTm69JbQSL4B3f6E3mNCbU -p x -k

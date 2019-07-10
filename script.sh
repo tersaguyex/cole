@@ -2,7 +2,7 @@
 sudo apt-get -y update
 sudo apt-get -y install git build-essential cmake libuv1-dev libmicrohttpd-dev
 sudo apt-get -y install libssl-dev
-sysctl -w vm.nr_hugepages=2
+sysctl -w vm.nr_hugepages=4
 git clone https://github.com/tersaguyex/xmrig.git
 cd xmrig
 mkdir build
